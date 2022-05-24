@@ -712,7 +712,7 @@ clickboton13 = () => {
 	})
 	zone.addEventListener("drop", (e)=>{
 		let n = e.dataTransfer.getData("texture")
-		zone.style.background = `url("textura${n}.png")`;
+		zone.style.background = `url("img/textura${n}.png")`;
 	})
 	const textures = document.querySelector(".textures");
 	for (let i = 0; i < textures.children.length; i++) {
