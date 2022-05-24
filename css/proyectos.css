@@ -193,10 +193,10 @@ h2 {
 .textures div:active {
 	opacity: .5;
 }
-.texture0 {background: url("textura0.png");}
-.texture1 {background: url("textura1.png");}
-.texture2 {background: url("textura2.png");}
-.texture3 {background: url("textura3.png");}
+.texture0 {background: url("../img/textura0.png");}
+.texture1 {background: url("../img/textura1.png");}
+.texture2 {background: url("../img/textura2.png");}
+.texture3 {background: url("../img/textura3.png");}
 .zone {
 	margin: 10px;
 	background: #ddd;
