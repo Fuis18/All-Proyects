@@ -635,7 +635,7 @@ clickboton11 = () => {
 			document.querySelector(".min").textContent = addZeros(time.getMinutes());
 			document.querySelector(".seg").textContent = addZeros(time.getSeconds());
 			document.querySelector(".dia").textContent = addZeros(time.getDate());
-			document.querySelector(".mes").textContent = addZeros(time.getMonth());
+			document.querySelector(".mes").textContent = addZeros(time.getMonth()) + 1;
 			document.querySelector(".year").textContent = addZeros(time.getYear()) + 1900;
 		}
 	}
